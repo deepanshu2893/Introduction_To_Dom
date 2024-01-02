@@ -1,5 +1,9 @@
-const allLinks = document.querySelectorAll("img");
+const allLinks = document.querySelectorAll("p");
+
+// for (let link of allLinks) {
+//     link.innerText = "I am the LINK";
+// }
 
 for (let link of allLinks) {
-    link.innerText = "I am the LINK";
+    link.style.color = "red";
 }
