@@ -5,5 +5,6 @@ const allLinks = document.querySelectorAll("p");
 // }
 
 for (let link of allLinks) {
-    link.style.color = "red";
+    link.style.color = "blue";
 }
+
